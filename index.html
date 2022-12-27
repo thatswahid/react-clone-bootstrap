@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React - A javascript library</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body>
+    <!-- Navar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand text-react" href="#">
+            <img src="./images/reactico.png" alt="" class="img-fluid" style="height:35px; width:auto;">
+            React
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Docs <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tutorial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Community</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blogs</a>
+                </li>
+
+            </ul>
+            
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="jumbotron rounded-0 hero">
+        <div class="container hero-container text-center">
+            <h1 class="text-react">React</h1>
+            <p class="text-white mb-5">A JavaScript library for building user interfaces </p>
+            <button class="btn btn-lg bg-react rounded-0">Get Started</button>
+            <button class="btn btn-link btn-lg text-react rounded-0">Take the Tutorial ></button>
+        </div>
+    </section>
+
+    <!-- Detail section -->
+    <section class="container detail">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Declarative</h3>
+                <p>React makes it painless to create interactive UIs. Design simple views for each state in your
+                    application, and React will efficiently update and render just the right components when your data
+                    changes.</p>
+                <p>Declarative views make your code more predictable and easier to debug.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Component-Based</h3>
+                <p>Build encapsulated components that manage their own state, then compose them to make complex UIs.
+                </p>
+                <p>Since component logic is written in JavaScript instead of templates, you can easily pass rich data
+                    through your app and keep state out of the DOM.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Learn Once, Write Anywhere</h3>
+                <p>We don’t make assumptions about the rest of your technology stack, so you can develop new features in
+                    React without rewriting existing code.
+
+                </p>
+                <p>React can also render on the server using Node and power mobile apps using <br> <a href="#">React Native.</a></p>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <!-- DEMO SECTION -->
+
+    <section class="container mt-5" id="demo">
+        <!-- ROW 1 -->
+        <div class="row">
+            <div class="col-md-4">
+                <h3>A Simple Component</h3>
+                <p>React components implement a render() method that takes input data and returns what to display. This example uses an XML-like syntax called JSX. Input data that is passed into the component can be accessed by render() via this.props.
+                </p>
+                <p><b>JSX is optional and not required to use React.</b> Try the Babel REPL to see the raw JavaScript code produced by the JSX compilation step.</p>
+            </div>
+            <div class="col-md-8">
+                <img src="./images/demo-1.png" alt="" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- ROW 2 -->
+        <div class="row">
+            <div class="col-md-4">
+                <h3>A Stateful Component</h3>
+                <p>n addition to taking input data (accessed via this.props), a component can maintain internal state data (accessed via this.state). When a component’s state data changes, the rendered markup will be updated by re-invoking render().</p>
+            </div>
+            <div class="col-md-8">
+                <img src="./images/demo-2.png" alt="" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- ROW 3 -->
+        <div class="row">
+            <div class="col-md-4">
+                <h3>An Application</h3>
+                <p>Using props and state, we can put together a small Todo application. This example uses state to track the current list of items as well as the text that the user has entered. Although event handlers appear to be rendered inline, they will be collected and implemented using event delegation.</p>
+            </div>
+            <div class="col-md-8">
+                <img src="./images/demo-3.png" alt="" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- ROW 4 -->
+        <div class="row">
+            <div class="col-md-4">
+               <h3>A Component Using External Plugins</h3>
+               <p>React allows you to interface with other libraries and frameworks. This example uses remarkable, an external Markdown library, to convert the textarea’s value in real time.</p>
+            </div>
+            <div class="col-md-8">
+                <img src="./images/demo-4.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <!-- ButtonSection -->
+    <section class="mt-5" style="background-color: #282c34; min-height:100px">
+        <div class="container text-center">
+            <button class="btn btn-lg mt-4 bg-react rounded-0">Get Started</button>
+            <button class="btn btn-link btn-lg mt-4 text-react rounded-0">Take the Tutorial ></button>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer >
+       <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./images/footer-img.png" alt="" class="img-fluid w-50">
+                <div class="copyright">Copyright © 2021 Facebook Inc.</div>
+            </div>
+            <div class="col-md-4">
+                <h3>DOCS</h3>
+                <a href="#">Installation</a>
+                <a href="#">Main Concepts</a>
+                <a href="#">Advanced Guides</a>
+                <a href="#">API Reference</a>
+                <a href="#">Hooks</a>
+                <a href="#">Testing</a>
+                <a href="#">Contributing</a>
+                <a href="#">FAQ</a>
+            </div>
+            <div class="col-md-4">
+                <h3>CHANNELS</h3>
+                <a href="#">Github</a>
+                <a href="#">Stack Overflow</a>
+                <a href="#">Discussion Forums</a>
+                <a href="#">Reactiflux Chat</a>
+                <a href="#">DEV Community</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+       </div>
+       <br><br><br>
+    </footer>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+
+</html>

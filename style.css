@@ -1,0 +1,110 @@
+body {
+    font-family: 'Poppins' !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.main h4 {
+    margin-top:20px
+}
+
+.text-react {
+    color: #61daf9 !important;
+}
+
+.bg-react {
+    background-color: #61daf9;
+}
+
+nav {
+    background-color:#20232a;
+}
+
+.navbar-nav li a {
+    color: white !important;
+    margin-left: 35px;
+}
+
+.hero {
+    background-color: #282c34 !important;
+    border-radius: 0px;
+    min-height: 400px;
+    background-image: url('./images/main-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30%;
+}
+
+.hero-container h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.hero-container p {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.detail {
+    margin-top: 100px;
+}
+
+.detail h3 {
+    color: gray;
+    font-size: 25px;
+}
+
+.detail p {
+    margin-top: 30px;
+}
+
+.detail p a {
+    background-color: #eafafe;
+    color: black;
+}
+
+.detail p a:hover {
+    background-color: #92e0f3;
+}
+
+#demo p {
+    margin-top: 30px;
+}
+
+#demo .row {
+    margin-top: 90px;
+}
+
+#demo h3 {
+    font-weight: 900;
+}
+
+footer {
+    background-color: #20232a;
+    min-height: 200px;
+}
+
+footer .col-md-4 {
+   margin-top: 70px;
+}
+
+footer h3 {
+    color: rgb(204, 203, 201);
+    display: block;
+    font-size: 16px;
+}
+
+footer a {
+    color: white;
+    display: block;
+    margin-top: 10px;
+}
+
+footer a:hover {
+    color: #61daf9;
+    text-decoration: none;
+}
+
+.copyright {
+    color: rgb(177, 174, 174);
+    margin-top: 20px;
+}
